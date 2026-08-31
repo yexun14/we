@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width,
+        initial-scale=1.0,
+        maximum-scale=1.0,
+        user-scalable=no"
+    >
+
+    <meta name="theme-color" content="#f4dce5">
+
+    <title>편지당? 💌</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <main class="letter">
+
+        <!-- ================================= -->
+        <!-- 첫 번째 화면 : 봉투 -->
+        <!-- ================================= -->
+
+        <section class="screen active" id="screen1">
+
+            <button
+                class="envelope-button"
+                id="envelopeButton"
+                aria-label="봉투 열기"
+            >
+
+                <div class="envelope">
+
+                    <div class="envelope-body"></div>
+
+                    <div class="envelope-flap"></div>
+
+                    <div class="envelope-front"></div>
+
+                    <div class="envelope-heart">
+                        ♥
+                    </div>
+
+                </div>
+
+            </button>
+
+            <h1>
+                편지당? <span>💌</span>
+            </h1>
+
+            <p>
+                봉투 눌러서 열엉
+            </p>
+
+        </section>
+
+
+        <!-- ================================= -->
+        <!-- 두 번째 화면 -->
+        <!-- ================================= -->
+
+        <section class="screen" id="screen2">
+
+            <h1>
+                안녕! <span>💗</span>
+            </h1>
+
+            <p>
+                누구누구야!
+            </p>
+
+            <button
+                class="main-heart"
+                id="startButton"
+            >
+                ♥
+            </button>
+
+            <p>
+                하트를 눌러
+            </p>
+
+        </section>
+
+
+        <!-- ================================= -->
+        <!-- 질문 1 -->
+        <!-- ================================= -->
+
+        <section class="screen question-screen" id="screen3">
+
+            <h2>
+                나 사랑하쥐?? <span>🥺</span>
+            </h2>
+
+            <div class="answer-area">
+
+                <button
+                    class="yes-button"
+                    id="yes1"
+                >
+                    응! <span>❤️</span>
+                </button>
+
+                <button
+                    class="no-button"
+                    id="no1"
+                >
+                    아니??
+                </button>
+
+            </div>
+
+            <p id="hint1">
+                잘 생각해봐... <span>🥺</span>
+            </p>
+
+        </section>
+
+
+        <!-- ================================= -->
+        <!-- 질문 2 -->
+        <!-- ================================= -->
+
+        <section class="screen question-screen" id="screen4">
+
+            <h2>
+                나 사랑하쥐?? <span>🥺</span>
+            </h2>
+
+            <div class="answer-area">
+
+                <button
+                    class="yes-button"
+                    id="yes2"
+                >
+                    응! <span>❤️</span>
+                </button>
+
+                <button
+                    class="no-button"
+                    id="no2"
+                >
+                    아니??
+                </button>
+
+            </div>
+
+            <p>
+                진짜 아니라고?? <span>🥺</span>
+            </p>
+
+        </section>
+
+
+        <!-- ================================= -->
+        <!-- 질문 3 -->
+        <!-- ================================= -->
+
+        <section class="screen question-screen" id="screen5">
+
+            <h2>
+                나 사랑하쥐?? <span>🥺</span>
+            </h2>
+
+            <div class="answer-area">
+
+                <button
+                    class="yes-button"
+                    id="yes3"
+                >
+                    응! <span>❤️</span>
+                </button>
+
+                <button
+                    class="no-button"
+                    id="no3"
+                >
+                    아니??
+                </button>
+
+            </div>
+
+            <p>
+                한 번만 다시 생각해봐... <span>🥺</span>
+            </p>
+
+        </section>
+
+
+        <!-- ================================= -->
+        <!-- 마지막 -->
+        <!-- ================================= -->
+
+        <section class="screen final-screen" id="screen6">
+
+            <div class="big-heart">
+                ❤️
+            </div>
+
+            <h1>
+                하잇!
+            </h1>
+
+            <p class="final-text">
+                할말은없엉ㅎㅎ 그냥 사랑한다고 전하고
+                싶더라구 사랑햄 <span>💗</span>
+            </p>
+
+            <button
+                class="main-heart final-heart"
+                id="finalButton"
+            >
+                ♥
+            </button>
+
+            <p>
+                하트를 눌러 <span>💗</span>
+            </p>
+
+        </section>
+
+
+        <!-- 배경 하트 -->
+
+        <div
+            class="background-hearts"
+            id="backgroundHearts"
+        ></div>
+
+    </main>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
